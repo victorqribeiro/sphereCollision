@@ -58,9 +58,9 @@ class Sphere {
     c.rotate(this.a)
     c.beginPath()
     c.arc(0, 0, this.r, 0, TWOPI)
-		const gradient = c.createRadialGradient(this.r/2, -this.r/2, 0, 0, 0, this.r)
-		gradient.addColorStop(0, this.c)
-		gradient.addColorStop(1, this.c.replace('50%', '10%'))
+    const gradient = c.createRadialGradient(this.r/2, -this.r/2, 0, 0, 0, this.r)
+    gradient.addColorStop(0, this.c)
+    gradient.addColorStop(1, this.c.replace('50%', '10%'))
     c.fillStyle = gradient
     c.fill()
     c.restore()
