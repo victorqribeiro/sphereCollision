@@ -2,7 +2,7 @@
 
 A JavaScript 2D experiment with physics.
 
-![screenshot](scrrenshot.png)
+![screenshot](screenshot.png)
 
 [Live version](https://victorribeiro.com/sphereCollision)
 
